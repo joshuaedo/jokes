@@ -11,17 +11,6 @@ root.render(
 );
 
 /* Challenge:
-One LAST time in this course, set up a React app from scratch
-- Render an <App /> component
-    - App should be in its own file
-- App should render 4-5 <Joke /> components 
-  (Joke component defined in its own file too)
-    - Each Joke should receive a "setup" prop and a "punchline" prop
-      and render those however you'd like
-- Use your favorite 2-part jokes (setup & punchline), or check
-  jokes.md file for some examples.
-
-
 
 EXTRA CREDIT:
 Some jokes are only a punchline with no setup:
@@ -32,3 +21,27 @@ they always take things literally."
 If you don't pass in a "question" prop, how might you make it only 
 show the punchline?
 */
+
+
+//render a database of jokes using react as cards on the dom?
+// function Jokes() {
+//     return (
+//         <>
+//             {
+//                 jokeList.map((joke) => {
+//                     return (
+//                         <div className="box">
+//                             <strong>{joke.setup}</strong>
+//                             <br />
+//                             <p>{joke.punchline}</p>
+//                         </div>
+//                     );
+//                 })
+//             }
+//         </>
+//     );
+// }
+
+
+
+
